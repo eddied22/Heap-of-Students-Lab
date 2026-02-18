@@ -1,0 +1,1 @@
+Split string by commas Store pieces in temporary string array/vector Assign: firstName = field[0] lastName = field[1] address.init(field[2], field[3], field[4], field[5]) birthDate.init(field[6]) gradDate.init(field[7]) creditHours = stoi(field[8])
