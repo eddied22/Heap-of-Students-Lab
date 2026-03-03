@@ -1,13 +1,27 @@
-//
-// Created by Eddie Mullins on 2/18/26.
-//
+#ifndef DATE_H
+#define DATE_H
 
-#ifndef HEAP_OF_STUDENTS_DATE_H
-#define HEAP_OF_STUDENTS_DATE_H
+#include <iostream>
+#include <string>
 
+class Date {
+private:
+    std::string month;
+    int day;
+    int year;
 
-class date {
+public:
+    Date() {}
+
+    Date(std::string m, int d, int y) {
+        month = m;
+        day = d;
+        year = y;
+    }
+
+    void print() {
+        std::cout << month << " " << day << ", " << year;
+    }
 };
 
-
-#endif //HEAP_OF_STUDENTS_DATE_H
+#endif
