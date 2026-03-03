@@ -1,15 +1,12 @@
 #ifndef DATE_H
 #define DATE_H
-
 #include <iostream>
 #include <string>
-
 class Date {
 private:
     std::string month;
     int day;
     int year;
-
 public:
     Date() {}
 
@@ -23,5 +20,4 @@ public:
         std::cout << month << " " << day << ", " << year;
     }
 };
-
 #endif
